@@ -1,6 +1,9 @@
 # G4Basic: Teflon study
 
 # To run geant on Odyssey, use these setup commands first (and every new login):
+
+#    (source /n/holystore01/LABS/guenette_lab/Lab/software/next/scisoft/setup)
+
 #    setup cmake v3_14_3
 #    setup gsl v2_5 -q prof
 #    setup geant4 v4_10_6_p01 -q e19:prof
