@@ -26,7 +26,7 @@ PrimaryGeneration::PrimaryGeneration(RunAction* runAction):
   G4int n_particle = 1;
   fParticleGun = new G4ParticleGun(n_particle);
 
-  fParticleGun->SetParticleEnergy(0*eV);
+  fParticleGun->SetParticleEnergy(0.2*eV);
   fParticleGun->SetParticlePosition(G4ThreeVector(0.,0.,0.));
   fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,0.));
 }
